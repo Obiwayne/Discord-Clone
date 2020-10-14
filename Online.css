@@ -1,0 +1,48 @@
+.online {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  height: 100vh;
+  z-index: 1;
+  background-color: #2f3136;
+}
+
+.online__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #36393f;
+  color: white;
+  border-bottom: 1px solid #26282c;
+}
+
+.online__top > .MuiSvgIcon-root {
+  cursor: pointer;
+  color: #b9bbbe;
+}
+
+.online__main {
+  padding: 20px;
+  flex: 1;
+}
+
+.online__main > .sidebar__profileContainer,
+.online__main p {
+  float: left;
+}
+
+.online__main p {
+  padding-top: 7px;
+  padding-left: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.online__main > h4 {
+  color: gray;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}

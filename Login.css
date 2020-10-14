@@ -1,0 +1,35 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #738adb;
+  color: white;
+  font-weight: 800;
+}
+
+.login > button:hover {
+  background-color: black;
+  color: #738adb;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
+
+.login > div:before {
+  content: "CLONE";
+  z-index: 1;
+  color: #738adb;
+  float: right;
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
+  left: -70px;
+  bottom: -120px;
+}

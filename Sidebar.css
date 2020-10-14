@@ -1,0 +1,127 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.15;
+  height: 100vh;
+  z-index: 1;
+  background-color: #2f3136;
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.26);
+}
+
+.sidebar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2f3135;
+  color: white;
+  border-bottom: 1px solid #26282c;
+}
+
+.sidebar__channels {
+  flex: 1;
+}
+
+.sidebar__addchannel {
+  cursor: pointer;
+}
+
+.sidebar__addchannel:hover {
+  color: white;
+}
+
+.sidebar__channelHeader,
+.sidebar__voiceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3135;
+  color: gray;
+}
+
+.sidebar__header,
+.sidebar__voiceChannel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: gray;
+}
+
+.sidebar__voiceRooms {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar__voiceRooms > h4,
+.sidebar__voiceRooms > .MuiSvgIcon-root {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: #2f3135;
+  color: gray;
+  cursor: pointer;
+}
+
+.sidebar__voiceRooms > h4 {
+  padding-left: 5px;
+}
+
+.sidebar__voice,
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #292b2f;
+  padding: 0 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebar__voiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__voiceIcon,
+.sidebar__voiceInfo > h3 {
+  color: #4fb185;
+}
+
+.sidebar__voiceInfo > p {
+  font-size: smaller;
+}
+
+.sidebar__voiceIcons > .MuiSvgIcon-root,
+.sidebar__profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.sidebar__profileContainer:after {
+  content: "";
+  background-color: #43b581;
+  width: 10px;
+  height: 10px;
+  float: left;
+  position: relative;
+  z-index: 10;
+  bottom: 0;
+  margin-left: 25px;
+  margin-top: -13px;
+  border-radius: 50px;
+  border: 3px solid #292b2f;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar__profileInfo > h3 {
+  color: white;
+}
